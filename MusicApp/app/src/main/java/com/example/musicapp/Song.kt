@@ -1,4 +1,7 @@
 package com.example.musicapp
 
-class Song (songname: String,) {
+import android.provider.MediaStore
+import java.time.Year
+
+class Song (songname: String, songArtists: String, songYear: ) {
 }
