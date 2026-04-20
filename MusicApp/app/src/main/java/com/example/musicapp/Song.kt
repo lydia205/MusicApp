@@ -15,7 +15,5 @@ class Song (songname: String, songArtists: String, songYear: Int,songDuration: S
 
     //initialising variables
     init{
-        name = songName
-        artist = songArtist
-         
+
     }
