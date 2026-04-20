@@ -25,7 +25,10 @@ class MainActivity : AppCompatActivity() {
         //creating an array to hold the song objects
         var songs = arrayOf(song1,song2, song3)
 
-        //
+        //for loop trought and display songs from the songs array
+        for (song in songs){
+            songDisplay
+        }
 
 
 

@@ -10,7 +10,7 @@ class Song (songname: String, songArtists: String, songYear: Int,songDuration: S
     var Year: Int = 0
     var duration: String = ""
 
-    constructor(songName: String, songArtists: String) : this(songName, songArtists, = 0)
+    constructor(songName: String, songArtists: String) : this(songName, songArtists, = 0"")
     }
 
     //initialising variables
