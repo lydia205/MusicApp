@@ -14,9 +14,9 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         //accessing the Song class to populate song objects with specific attributes
-        var  song1 = Song("Choosi'Texas", "Ell")
-        var  song2
-        var  song3
+        var  song1 = Song("Choosi'Texas", "Ella langley", 2026)
+        var  song2 = Song("Man I Need", "Olivia Deam", 2026)
+        var  song3 = Song("I just Might", "Bruno Mars")
 
 
 

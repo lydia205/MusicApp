@@ -7,5 +7,15 @@ class Song (songname: String, songArtists: String, songYear: Int,songDuration: S
     //created variable to hold song object's attributes
     var name: String = ""
     var artists: String = ""
-    var Year
-}
+    var Year: Int = 0
+    var duration: String = ""
+
+    constructor(songName: String, songArtists: String) : this(songName, songArtists, = 0)
+    }
+
+    //initialising variables
+    init{
+        name = songName
+        artist = songArtist
+         
+    }
