@@ -27,9 +27,10 @@ class MainActivity : AppCompatActivity() {
 
         //for loop trought and display songs from the songs array
         for (song in songs){
-            songDisplay
+            songDisplay += "${song.DisplaySong()}\n\n"
         }
 
+        songShowTxt.text =songDisplay
 
 
 

@@ -1,19 +1,28 @@
 package com.example.musicapp
 
 import android.provider.MediaStore
+import android.util.Log
 import java.time.Year
+import kotlin.time.Duration
 
-class Song (songname: String, songArtists: String, songYear: Int,songDuration: String) {
+class Song (SongName: String, songArtist: String, songYear: Int,songDuration: String){
     //created variable to hold song object's attributes
     var name: String = ""
-    var artists: String = ""
+    var Artist: String = ""
     var Year: Int = 0
-    var duration: String = ""
+    var Duration: String = ""
 
-    constructor(songName: String, songArtists: String) : this(songName, songArtists, = 0"")
+    constructor(songName: String, songArtists: String) : this(songName, songArtists, 0,"")
     }
 
-    //initialising variables
-    init{
-
+    //initialisAing variables
+    init {
+        name  = songName
+        Artist = songArtist
+        year = songYear
+        Duration = songDuration
     }
+
+fun play () {
+    Log.v("song", "$name" playing now")
+}
