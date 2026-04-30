@@ -19,8 +19,7 @@ class Song ( var songName: String, var songArtist: String,  var songYear: Int, v
     }
 
     //secondary constructor2
-    constructor(songName: String, songYear: Int) : this(songName,"Unknow", songYear,""){
-
+    constructor(songName: String, songYear: Int) : this(songName,"Unknow", songYear,"") {
     }
 
 
