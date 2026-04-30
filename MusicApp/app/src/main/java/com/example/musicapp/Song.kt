@@ -14,9 +14,15 @@ class Song ( var songName: String, var songArtist: String,  var songYear: Int, v
     var Year: Int = 0
     var Duration: String = ""
 
+    // secondary Cconstructor 1
     constructor(songName: String, songArtist: String) : this(songName, songArtist, 0, "") {
+    }
+
+    //secondary constructor2
+    constructor(songName: String, songYear: Int) : this(songName,"Unknow", songYear,""){
 
     }
+
 
     //initialize variables
     init {
