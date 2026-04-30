@@ -18,15 +18,15 @@ class MainActivity : AppCompatActivity() {
         var songDisplay = ""
 
         //accessing the Song class to populate song objects with specific attributes
-        var  song1 = Song("Choosin'Texas", "Ella langley", )
-        var  song2 = Song("Man I Need", "Olivia Deam", )
-        var  song3 = Song("I just Might", "Bruno Mars")
-        var  song4 = Song("Espresso", "Sabrina Carpenter")
+        var  song1 = Song("Choosin'Texas", "Ella langley",2025 )
+        var  song2 = Song("Man I Need", "Olivia Deam",2023 )
+        var  song3 = Song("I just Might", "Bruno Mars",2026)
+        var  song4 = Song("Espresso", "Sabrina Carpenter",2024)
         var  song5 = Song("Olid Tape",1995)
 
 
         //creating an array to hold the song objects
-        var songs = arrayOf(song1,song2, song3)
+        var songs = arrayOf(song1,song2, song3,song4,song5)
 
         //for loop trought and display songs from the songs array
         for (song in songs){

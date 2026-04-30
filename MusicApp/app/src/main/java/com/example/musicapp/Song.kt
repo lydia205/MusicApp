@@ -21,7 +21,10 @@ class Song ( var songName: String, var songArtist: String,  var songYear: Int, v
     //secondary constructor2
     constructor(songName: String, songYear: Int) : this(songName,"Unknow", songYear,"") {
     }
+    //secondary constructor 3
+    constructor(songName: String,songArtist: String,songYear: Int) : this(songName,songArtist,songYear,"0:00"){
 
+    }
 
     //initialize variables
     init {
@@ -50,6 +53,6 @@ class Song ( var songName: String, var songArtist: String,  var songYear: Int, v
 
     fun DisplaySong(): String {
         val artist = ""
-        return "$name - $artist ($Duration)"
+        return "$name - $Artist ($Year) $Duration"
     }
 }
